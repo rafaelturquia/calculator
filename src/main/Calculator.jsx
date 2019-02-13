@@ -51,8 +51,8 @@ export default class Calculator extends Component {
           clearDisplay: !equals,
           values
         });
+        console.log(values);
     };
-    console.log(operation);
   };
 
   addDigit(valueUser) {
